@@ -45,7 +45,7 @@ public class TestUserService {
 	@Test
 	public void testInsert() {
 		UserInfo userInfo = new UserInfo();
-		userInfo.setId(100);
+		userInfo.setId(110);
 		userInfo.setUname("xiaoming");
 		userInfo.setUnumber(4);
 		int result = userService.insert(userInfo);

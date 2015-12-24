@@ -6,7 +6,7 @@ public class UserInfo {
 	private Integer id;
 	private String uname;
 	private Integer unumber;
-	private List<CourseInfo> courses;
+	private List<CourseInfo> coursesInfos;
 	public Integer getId() {
 		return id;
 	}
@@ -26,15 +26,15 @@ public class UserInfo {
 		this.unumber = unumber;
 	}
 	public List<CourseInfo> getCourses() {
-		return courses;
+		return coursesInfos;
 	}
-	public void setCourses(List<CourseInfo> courses) {
-		this.courses = courses;
+	public void setCourses(List<CourseInfo> coursesInfos) {
+		this.coursesInfos = coursesInfos;
 	}
 	@Override
 	public String toString() {
 		return "UserInfo [id=" + id + ", uname=" + uname + ", unumber="
-				+ unumber + ", courses=" + courses + "]";
+				+ unumber + ", courses=" + coursesInfos + "]";
 	}
 	
 }
